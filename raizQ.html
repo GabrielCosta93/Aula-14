@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Programa Raiz Quadrada</title>
+
+</head>
+
+<body>
+    <img src="IMG/img03.jpg" alt="Calculadora" class="ladoesq" height="20%" width="20%">
+
+    <h1>
+        Programa Raiz Quadrada
+    </h1>
+
+
+    <div>
+        <!-- <label for="numero">Número:</label> -->
+        <p>Número:
+            <input type="text" id= "numero">
+        </p>
+
+       <!-- <input type="number" id="numero"> -->
+    </div>
+
+    <div id = "botao">
+      <!--  <input type="button" value="Exibir Raiz Quadrada" id="botaoResultado">-->
+        <button id="botaoResultado">Exibir Raiz Quadrada</button>
+        <pre id="outRaiz"></pre>
+    </div>
+
+<script src="JS/raizQ.js"></script>
+
+</body>
+
+<style>
+    img {
+        float: left;
+    }
+    
+    h1 {
+        text-shadow: 0.1em 0.1em 0.3em #888;
+        border-bottom: solid #888 2px;
+        width: 30%;
+        flex-direction: row;
+    }
+    
+    img,
+    h1 {
+        display: flex;
+        flex-direction: row;
+    }
+    
+    div {
+        font-size: 20px;
+        padding-top: 5px;
+    }
+    
+    #botao {
+        padding-top: 20px;
+    }
+</style>
+
+
+
+</html>
